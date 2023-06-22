@@ -1,0 +1,3251 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Michelin Star Restaurants 2021)' inline='true' name='federated.0ijm19t0cd1ykb1bgke1i1iabq38' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Michelin Star Restaurants 2021' name='excel-direct.0tqiqfb1dc3avz1gbcwgl1v1kmzs'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Usuario/Documents/máster/michelin_my_maps.csv/Michelin Star Restaurants 2021.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0tqiqfb1dc3avz1gbcwgl1v1kmzs' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:N3156:no:A1:N3156:1' header='yes' lost='0' outcome='1' processed='9579'>
+            <column datatype='string' name='restaurant' ordinal='0' />
+            <column datatype='string' name='link' ordinal='1' />
+            <column datatype='string' name='michelin guide' ordinal='2' />
+            <column datatype='string' name='address' ordinal='3' />
+            <column datatype='string' name='price' ordinal='4' />
+            <column datatype='string' name='cuisine' ordinal='5' />
+            <column datatype='string' name='michelin guide point of view' ordinal='6' />
+            <column datatype='string' name='facilities &amp; services' ordinal='7' />
+            <column datatype='string' name='contact number' ordinal='8' />
+            <column datatype='string' name='website' ordinal='9' />
+            <column datatype='string' name='opening hours' ordinal='10' />
+            <column datatype='integer' name='michelin stars' ordinal='11' />
+            <column datatype='real' name='location_lat' ordinal='12' />
+            <column datatype='real' name='location_long' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0tqiqfb1dc3avz1gbcwgl1v1kmzs' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:N3156:no:A1:N3156:1' header='yes' lost='0' outcome='1' processed='9579'>
+            <column datatype='string' name='restaurant' ordinal='0' />
+            <column datatype='string' name='link' ordinal='1' />
+            <column datatype='string' name='michelin guide' ordinal='2' />
+            <column datatype='string' name='address' ordinal='3' />
+            <column datatype='string' name='price' ordinal='4' />
+            <column datatype='string' name='cuisine' ordinal='5' />
+            <column datatype='string' name='michelin guide point of view' ordinal='6' />
+            <column datatype='string' name='facilities &amp; services' ordinal='7' />
+            <column datatype='string' name='contact number' ordinal='8' />
+            <column datatype='string' name='website' ordinal='9' />
+            <column datatype='string' name='opening hours' ordinal='10' />
+            <column datatype='integer' name='michelin stars' ordinal='11' />
+            <column datatype='real' name='location_lat' ordinal='12' />
+            <column datatype='real' name='location_long' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N3156:no:A1:N3156:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>9579</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>restaurant</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[restaurant]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>restaurant</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[link]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>link</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>michelin guide</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[michelin guide]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>michelin guide</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cuisine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cuisine]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cuisine</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>michelin guide point of view</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[michelin guide point of view]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>michelin guide point of view</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facilities &amp; services</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facilities &amp; services]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>facilities &amp; services</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[contact number]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>contact number</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>website</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[website]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>website</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opening hours</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[opening hours]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>opening hours</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>michelin stars</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[michelin stars]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>michelin stars</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[location_lat]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>location_lat</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[location_long]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>location_long</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_12776F015A8F4E598AF9AB2433079923]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_12776F015A8F4E598AF9AB2433079923]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Contact Number' datatype='string' name='[contact number]' role='dimension' type='nominal' />
+      <column datatype='string' name='[cuisine (grupo)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[cuisine]' default='&quot;Otro&quot;' new-bin='true'>
+          <bin default-name='false' value='&quot;Americana&quot;'>
+            <value>&quot;American&quot;</value>
+            <value>&quot;American, American Contemporary&quot;</value>
+            <value>&quot;American, Californian&quot;</value>
+            <value>&quot;American, Classic Cuisine&quot;</value>
+            <value>&quot;American, Contemporary&quot;</value>
+            <value>&quot;American, French&quot;</value>
+            <value>&quot;Californian&quot;</value>
+            <value>&quot;Californian, Contemporary&quot;</value>
+            <value>&quot;Californian, Creative&quot;</value>
+            <value>&quot;Californian, Modern Cuisine&quot;</value>
+            <value>&quot;Contemporary, American&quot;</value>
+            <value>&quot;Contemporary, American Contemporary&quot;</value>
+            <value>&quot;Contemporary, Californian&quot;</value>
+            <value>&quot;Steakhouse&quot;</value>
+            <value>&quot;Steakhouse, American&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Asiatica&quot;'>
+            <value>&quot;Asian&quot;</value>
+            <value>&quot;Asian Contemporary&quot;</value>
+            <value>&quot;Asian Contemporary, Modern Cuisine&quot;</value>
+            <value>&quot;Asian Influences&quot;</value>
+            <value>&quot;Asian Influences, Creative&quot;</value>
+            <value>&quot;Asian, Asian Influences&quot;</value>
+            <value>&quot;Asian, Contemporary&quot;</value>
+            <value>&quot;Asian, Creative&quot;</value>
+            <value>&quot;Asian, Fusion&quot;</value>
+            <value>&quot;Asian, Modern Cuisine&quot;</value>
+            <value>&quot;Beijing Cuisine&quot;</value>
+            <value>&quot;Beijing Cuisine, Cantonese&quot;</value>
+            <value>&quot;Cantonese&quot;</value>
+            <value>&quot;Cantonese Roast Meats&quot;</value>
+            <value>&quot;Cantonese, Sichuan&quot;</value>
+            <value>&quot;Chao Zhou&quot;</value>
+            <value>&quot;Chinese&quot;</value>
+            <value>&quot;Chinese Contemporary&quot;</value>
+            <value>&quot;Chinese, Beijing Cuisine&quot;</value>
+            <value>&quot;Chinese, Contemporary&quot;</value>
+            <value>&quot;Contemporary, Asian&quot;</value>
+            <value>&quot;Contemporary, Japanese Contemporary&quot;</value>
+            <value>&quot;Creative, Asian Contemporary&quot;</value>
+            <value>&quot;Creative, Japanese&quot;</value>
+            <value>&quot;Dim Sum&quot;</value>
+            <value>&quot;Fugu / Pufferfish&quot;</value>
+            <value>&quot;Fujian&quot;</value>
+            <value>&quot;Fusion, Japanese&quot;</value>
+            <value>&quot;Hang Zhou&quot;</value>
+            <value>&quot;Huaiyang&quot;</value>
+            <value>&quot;Huaiyang, Sichuan&quot;</value>
+            <value>&quot;Hunanese&quot;</value>
+            <value>&quot;Hunanese, Sichuan&quot;</value>
+            <value>&quot;Izakaya&quot;</value>
+            <value>&quot;Japanese&quot;</value>
+            <value>&quot;Japanese Contemporary&quot;</value>
+            <value>&quot;Japanese Contemporary, Fusion&quot;</value>
+            <value>&quot;Japanese, Asian Contemporary&quot;</value>
+            <value>&quot;Japanese, Classic Cuisine&quot;</value>
+            <value>&quot;Japanese, Contemporary&quot;</value>
+            <value>&quot;Japanese, Creative&quot;</value>
+            <value>&quot;Japanese, Modern Cuisine&quot;</value>
+            <value>&quot;Japanese, Seafood&quot;</value>
+            <value>&quot;Japanese, Seasonal Cuisine&quot;</value>
+            <value>&quot;Japanese, Sushi&quot;</value>
+            <value>&quot;Japanese, Tempura&quot;</value>
+            <value>&quot;Jiangzhe&quot;</value>
+            <value>&quot;Korean&quot;</value>
+            <value>&quot;Korean, Contemporary&quot;</value>
+            <value>&quot;Korean, Korean Contemporary&quot;</value>
+            <value>&quot;Korean, Steakhouse&quot;</value>
+            <value>&quot;Modern Cuisine, Asian Contemporary&quot;</value>
+            <value>&quot;Modern Cuisine, Asian Influences&quot;</value>
+            <value>&quot;Modern Cuisine, Sushi&quot;</value>
+            <value>&quot;Ningbo&quot;</value>
+            <value>&quot;Noodles and Congee&quot;</value>
+            <value>&quot;Peranakan&quot;</value>
+            <value>&quot;Ramen&quot;</value>
+            <value>&quot;Shandong&quot;</value>
+            <value>&quot;Shanghainese&quot;</value>
+            <value>&quot;Shojin&quot;</value>
+            <value>&quot;Sichuan&quot;</value>
+            <value>&quot;Soba&quot;</value>
+            <value>&quot;Southern Thai&quot;</value>
+            <value>&quot;Sukiyaki&quot;</value>
+            <value>&quot;Sushi&quot;</value>
+            <value>&quot;Taiwanese&quot;</value>
+            <value>&quot;Taizhou&quot;</value>
+            <value>&quot;Teochew&quot;</value>
+            <value>&quot;Thai&quot;</value>
+            <value>&quot;Thai contemporary&quot;</value>
+            <value>&quot;Thai, Asian Contemporary&quot;</value>
+            <value>&quot;Thai, Californian&quot;</value>
+            <value>&quot;Thai, Contemporary&quot;</value>
+            <value>&quot;Thai, Traditional Cuisine&quot;</value>
+            <value>&quot;Unagi / Freshwater Eel&quot;</value>
+            <value>&quot;Yakitori&quot;</value>
+            <value>&quot;Zhejiang&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Española&quot;'>
+            <value>&quot;Catalan, Contemporary&quot;</value>
+            <value>&quot;Creative, Andalusian&quot;</value>
+            <value>&quot;Creative, Castilian&quot;</value>
+            <value>&quot;Galician&quot;</value>
+            <value>&quot;Spanish&quot;</value>
+            <value>&quot;Spanish Contemporary&quot;</value>
+            <value>&quot;Spanish, Contemporary&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Francesa&quot;'>
+            <value>&quot;Classic Cuisine, French Contemporary&quot;</value>
+            <value>&quot;Classic Cuisine, Modern French&quot;</value>
+            <value>&quot;Classic French&quot;</value>
+            <value>&quot;Classic French, Classic Cuisine&quot;</value>
+            <value>&quot;Classic French, Contemporary&quot;</value>
+            <value>&quot;Classic French, Creative&quot;</value>
+            <value>&quot;Classic French, French&quot;</value>
+            <value>&quot;Classic French, International&quot;</value>
+            <value>&quot;Classic French, Market Cuisine&quot;</value>
+            <value>&quot;Classic French, Mediterranean Cuisine&quot;</value>
+            <value>&quot;Classic French, Modern Cuisine&quot;</value>
+            <value>&quot;Classic French, Regional Cuisine&quot;</value>
+            <value>&quot;Classic French, Seasonal Cuisine&quot;</value>
+            <value>&quot;Classic French, Traditional Cuisine&quot;</value>
+            <value>&quot;Contemporary, Classic French&quot;</value>
+            <value>&quot;Contemporary, French&quot;</value>
+            <value>&quot;Contemporary, French Contemporary&quot;</value>
+            <value>&quot;Contemporary, Modern French&quot;</value>
+            <value>&quot;Country cooking, Classic French&quot;</value>
+            <value>&quot;Creative French&quot;</value>
+            <value>&quot;Creative French, Classic Cuisine&quot;</value>
+            <value>&quot;Creative French, Creative&quot;</value>
+            <value>&quot;Creative French, Market Cuisine&quot;</value>
+            <value>&quot;Creative French, Modern Cuisine&quot;</value>
+            <value>&quot;Creative French, Modern French&quot;</value>
+            <value>&quot;Creative, Classic French&quot;</value>
+            <value>&quot;Creative, French&quot;</value>
+            <value>&quot;Creative, French Contemporary&quot;</value>
+            <value>&quot;Creative, Modern French&quot;</value>
+            <value>&quot;European, French&quot;</value>
+            <value>&quot;French&quot;</value>
+            <value>&quot;French Contemporary&quot;</value>
+            <value>&quot;French Contemporary, Creative French&quot;</value>
+            <value>&quot;French Contemporary, Modern Cuisine&quot;</value>
+            <value>&quot;French, Californian&quot;</value>
+            <value>&quot;French, Classic French&quot;</value>
+            <value>&quot;French, Contemporary&quot;</value>
+            <value>&quot;French, Creative&quot;</value>
+            <value>&quot;French, French Contemporary&quot;</value>
+            <value>&quot;French, International&quot;</value>
+            <value>&quot;French, Seasonal Cuisine&quot;</value>
+            <value>&quot;Home Cooking, Creative French&quot;</value>
+            <value>&quot;Market Cuisine, Modern French&quot;</value>
+            <value>&quot;Mediterranean Cuisine, Classic French&quot;</value>
+            <value>&quot;Mediterranean Cuisine, French&quot;</value>
+            <value>&quot;Mediterranean Cuisine, French Contemporary&quot;</value>
+            <value>&quot;Modern Cuisine, Classic French&quot;</value>
+            <value>&quot;Modern Cuisine, French&quot;</value>
+            <value>&quot;Modern Cuisine, French Contemporary&quot;</value>
+            <value>&quot;Modern Cuisine, Modern French&quot;</value>
+            <value>&quot;Modern French&quot;</value>
+            <value>&quot;Modern French, Classic Cuisine&quot;</value>
+            <value>&quot;Modern French, Contemporary&quot;</value>
+            <value>&quot;Modern French, Country cooking&quot;</value>
+            <value>&quot;Modern French, Creative&quot;</value>
+            <value>&quot;Modern French, Creative French&quot;</value>
+            <value>&quot;Modern French, French&quot;</value>
+            <value>&quot;Modern French, International&quot;</value>
+            <value>&quot;Modern French, Market Cuisine&quot;</value>
+            <value>&quot;Modern French, Mediterranean Cuisine&quot;</value>
+            <value>&quot;Modern French, Modern Cuisine&quot;</value>
+            <value>&quot;Modern French, Regional Cuisine&quot;</value>
+            <value>&quot;Modern French, Seasonal Cuisine&quot;</value>
+            <value>&quot;Modern French, World Cuisine&quot;</value>
+            <value>&quot;Organic, Creative French&quot;</value>
+            <value>&quot;Seafood, French&quot;</value>
+            <value>&quot;World Cuisine, Creative French&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Inglesa&quot;'>
+            <value>&quot;British Contemporary&quot;</value>
+            <value>&quot;British Contemporary, Classic Cuisine&quot;</value>
+            <value>&quot;Contemporary, English&quot;</value>
+            <value>&quot;Creative British&quot;</value>
+            <value>&quot;Creative British, Modern Cuisine&quot;</value>
+            <value>&quot;Irish, Modern Cuisine&quot;</value>
+            <value>&quot;Modern British&quot;</value>
+            <value>&quot;Modern British, Creative&quot;</value>
+            <value>&quot;Modern British, Regional Cuisine&quot;</value>
+            <value>&quot;Traditional British&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Italiana&quot;'>
+            <value>&quot;Campanian, Mediterranean Cuisine&quot;</value>
+            <value>&quot;Campanian, Regional Cuisine&quot;</value>
+            <value>&quot;Classic Cuisine, Italian Contemporary&quot;</value>
+            <value>&quot;Contemporary, Apulian&quot;</value>
+            <value>&quot;Contemporary, Italian&quot;</value>
+            <value>&quot;Contemporary, Sicilian&quot;</value>
+            <value>&quot;Contemporary, Venetian&quot;</value>
+            <value>&quot;Creative, Italian&quot;</value>
+            <value>&quot;Creative, Italian Contemporary&quot;</value>
+            <value>&quot;Creative, Organic&quot;</value>
+            <value>&quot;Creative, Sicilian&quot;</value>
+            <value>&quot;Cuisine from Abruzzo&quot;</value>
+            <value>&quot;Cuisine from Abruzzo, Regional Cuisine&quot;</value>
+            <value>&quot;Innovative, Italian Contemporary&quot;</value>
+            <value>&quot;Italian&quot;</value>
+            <value>&quot;Italian Contemporary&quot;</value>
+            <value>&quot;Italian Contemporary, Contemporary&quot;</value>
+            <value>&quot;Italian Contemporary, Creative&quot;</value>
+            <value>&quot;Italian Contemporary, Japanese&quot;</value>
+            <value>&quot;Italian Contemporary, Modern Cuisine&quot;</value>
+            <value>&quot;Italian Contemporary, Piedmontese&quot;</value>
+            <value>&quot;Italian, American&quot;</value>
+            <value>&quot;Italian, Californian&quot;</value>
+            <value>&quot;Italian, Contemporary&quot;</value>
+            <value>&quot;Italian, Creative&quot;</value>
+            <value>&quot;Italian, Emilian&quot;</value>
+            <value>&quot;Italian, Italian Contemporary&quot;</value>
+            <value>&quot;Italian, Italian-American&quot;</value>
+            <value>&quot;Italian, Mediterranean Cuisine&quot;</value>
+            <value>&quot;Italian, Modern Cuisine&quot;</value>
+            <value>&quot;Italian, Regional Cuisine&quot;</value>
+            <value>&quot;Italian, Sicilian&quot;</value>
+            <value>&quot;Mediterranean Cuisine, Italian&quot;</value>
+            <value>&quot;Mediterranean Cuisine, Italian Contemporary&quot;</value>
+            <value>&quot;Mediterranean Cuisine, Sicilian&quot;</value>
+            <value>&quot;Modern Cuisine, Italian&quot;</value>
+            <value>&quot;Modern Cuisine, Italian Contemporary&quot;</value>
+            <value>&quot;Modern Cuisine, Piedmontese&quot;</value>
+            <value>&quot;Modern Cuisine, Sicilian&quot;</value>
+            <value>&quot;Piedmontese&quot;</value>
+            <value>&quot;Piedmontese, Creative&quot;</value>
+            <value>&quot;Piedmontese, Modern Cuisine&quot;</value>
+            <value>&quot;Piedmontese, Regional Cuisine&quot;</value>
+            <value>&quot;Provençal&quot;</value>
+            <value>&quot;Regional Cuisine, Italian&quot;</value>
+            <value>&quot;Seafood, Italian&quot;</value>
+            <value>&quot;Tuscan&quot;</value>
+            <value>&quot;Tuscan, Regional Cuisine&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Vegana/Vegetariana&quot;'>
+            <value>&quot;Californian, Vegetarian&quot;</value>
+            <value>&quot;Japanese, Vegan&quot;</value>
+            <value>&quot;Organic, Creative&quot;</value>
+            <value>&quot;Organic, Vegetarian&quot;</value>
+            <value>&quot;Vegan&quot;</value>
+            <value>&quot;Vegan, Creative&quot;</value>
+            <value>&quot;Vegetarian&quot;</value>
+            <value>&quot;Vegetarian, Modern Cuisine&quot;</value>
+            <value>&quot;Vegetarian, Seasonal Cuisine&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[cuisine]' role='dimension' type='nominal' />
+      <column caption='Facilities &amp; Services' datatype='string' name='[facilities &amp; services]' role='dimension' type='nominal' />
+      <column caption='Link' datatype='string' name='[link]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Location Lat' datatype='real' name='[location_lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Location Long' datatype='real' name='[location_long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Michelin Guide Point Of View' datatype='string' name='[michelin guide point of view]' role='dimension' type='nominal' />
+      <column caption='Michelin Guide' datatype='string' name='[michelin guide]' role='dimension' type='nominal' />
+      <column caption='Michelin Stars' datatype='integer' name='[michelin stars]' role='measure' type='quantitative' />
+      <column caption='Opening Hours' datatype='string' name='[opening hours]' role='dimension' type='nominal' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[price]' role='dimension' type='nominal' />
+      <column caption='Restaurant' datatype='string' name='[restaurant]' role='dimension' type='nominal' />
+      <column caption='Website' datatype='string' name='[website]' role='dimension' type='nominal' />
+      <column-instance column='[cuisine]' derivation='None' name='[none:cuisine:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:cuisine:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Asian Contemporary, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Californian, Vegetarian&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Classic Cuisine, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Contemporary, Alsatian&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Contemporary, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Creative French, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Creative, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;European, French&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hang Zhou&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Italian&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Japanese Contemporary&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Market Cuisine, Creative&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mediterranean Cuisine, Sicilian&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Modern Cuisine, French&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Modern Cuisine, Sushi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oden&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Regional Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sichuan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thai, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Yakitori&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;American&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Beijing Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Classic French, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Contemporary, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Country cooking, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Creative, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Creative, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;French, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Innovative, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italian, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jiangzhe&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mediterranean Cuisine, French&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Modern Cuisine, Catalan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Modern Cuisine, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Modern French, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Portuguese, Seafood&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Seafood, Ligurian&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Taizhou&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Unagi / Freshwater Eel&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;American, Contemporary&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Californian&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Classic Cuisine, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Classic French, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Contemporary, Italian&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Creative British, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Creative, Italian&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dim Sum&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fusion, Creative&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;International, Innovative&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Italian, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Korean, Steakhouse&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mediterranean Cuisine, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Modern Cuisine, Country cooking&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Modern Cuisine, Seafood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Modern French, World Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Regional Cuisine, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Shandong&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Thai contemporary&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vegetarian, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Asian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cantonese Roast Meats&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Classic Cuisine, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Contemporary, Asian&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Contemporary, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Creative, Andalusian&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Creative, Organic&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;French Contemporary, Creative French&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hunanese&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Italian Contemporary, Japanese&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Japanese, Contemporary&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Market Cuisine, Modern French&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Middle Eastern, Grills&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Modern Cuisine, International&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Modern French, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Peranakan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Scandinavian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Spanish Contemporary&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Traditional Cuisine, Contemporary&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Asian Influences&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Campanian, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Classic Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Contemporary, American&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Contemporary, Modern French&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Creative French, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Creative, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Finnish, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Home Cooking, Creative French&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Japanese Contemporary, Fusion&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Market Cuisine, Innovative&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mexican&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Modern Cuisine, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Modern Cuisine, Swedish&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Organic, Creative&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Regional Cuisine, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Soba&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Traditional British&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Zhejiang&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;American, French&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Californian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Classic Cuisine, International&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Classic French, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Contemporary, Japanese Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Creative French&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Creative, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Dongbei&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fusion, Japanese&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;International, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Italian, Sicilian&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mediterranean Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Modern Cuisine, Creative&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Modern Cuisine, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Moroccan, Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Regional Cuisine, Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Shanghainese&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thai, Asian Contemporary&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vegetarian, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Basque&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chinese, Beijing Cuisine&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Classic French, French&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Contemporary, European Contemporary&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Country cooking, International&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Creative, Country cooking&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Creative, Sicilian&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;French, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Innovative&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Italian, Creative&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Japanese, Tempura&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mediterranean Cuisine, Classic French&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Modern Cuisine, Asian Contemporary&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Modern Cuisine, Modern French&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Modern French, International&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Portuguese&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Seafood, Fusion&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sushi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tuscan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;American, American Contemporary&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Beijing Cuisine, Cantonese&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Classic Cuisine, Belgian&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Classic French, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Contemporary, Fusion&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Crab Specialities&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Creative, Fusion&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cuisine from Abruzzo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fugu / Pufferfish&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Innovative, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Italian, Italian-American&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Korean&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mediterranean Cuisine, French Contemporary&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Modern Cuisine, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Modern Cuisine, Russian&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Modern French, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Provençal&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Seafood, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tempura&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Vegan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Austrian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chinese&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Classic French, Contemporary&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Contemporary, Creative&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Country cooking, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Creative, Classic French&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Creative, Seafood&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;French, Contemporary&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Indian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Italian, Californian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Japanese, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mediterranean Cuisine, American Contemporary&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Modern Cuisine, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Modern French, Creative French&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Piedmontese, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Seafood, Creative&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Street Food&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Traditional Cuisine, Seafood&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Californian, Creative&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Classic Cuisine, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Colombian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Contemporary, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Creative French, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Creative, Japanese&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Emilian&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Galician&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Irish, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Izakaya&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Market Cuisine, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mediterranean Cuisine, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Modern Cuisine, Cuisine from Romagna&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Modern Cuisine, Sicilian&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ningbo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Regional Cuisine, Italian&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sharing, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thai, Californian&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;World Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Asian, Creative&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cantonese, Sichuan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Classic Cuisine, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Contemporary, Californian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Contemporary, Venetian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Creative, Asian Contemporary&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Creative, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;French Contemporary, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hunanese, Sichuan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Italian Contemporary, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Japanese, Creative&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Market Cuisine, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Modern British&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Modern Cuisine, Italian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Modern French, Contemporary&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Peruvian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Scottish, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Spanish, Contemporary&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Traditional Cuisine, Meats and Grills&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Asian, Fusion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Catalan, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Classic French&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Contemporary, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Corsican, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Creative, Castilian&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Creative, Russian&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;French, Californian&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hungarian&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Italian Contemporary, Piedmontese&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Japanese, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Meats and Grills&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Modern British, Creative&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Modern Cuisine, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Modern French, Country cooking&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Piedmontese&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Seafood&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Steakhouse&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Traditional Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Barbecue&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Chinese Contemporary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Classic French, Creative&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Contemporary, English&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Country cooking, Classic French&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Creative, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Creative, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;French, Creative&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Indian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Italian, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Japanese, Sushi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mediterranean Cuisine, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Modern Cuisine, Alpine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Modern Cuisine, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Modern French, French&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Piedmontese, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Seafood, French&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sukiyaki&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Traditional Cuisine, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Beef Specialities&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chinese, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Classic French, International&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Contemporary, French&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Country cooking, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Creative, French&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Creative, Swiss&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;French, International&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Innovative, Creative&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Italian, Emilian&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Japanese, Vegan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mediterranean Cuisine, Contemporary&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Modern Cuisine, Asian Influences&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Modern Cuisine, Piedmontese&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Modern French, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Portuguese, Californian&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Seafood, Italian&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Taiwanese&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tuscan, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Asian Influences, Creative&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Campanian, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Classic Cuisine, Modern French&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Contemporary, American Contemporary&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Contemporary, Seafood&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Creative French, Modern French&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Creative, Modern French&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;French&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Huaiyang&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Italian Contemporary, Contemporary&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Japanese, Asian Contemporary&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Market Cuisine, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mexican, Contemporary&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Modern Cuisine, Fusion&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Modern Cuisine, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Organic, Creative French&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Russian, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Southern Thai&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Asian Contemporary&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Californian, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Classic Cuisine, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Contemporary&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Contemporary, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Creative French, Creative&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Creative, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;European Contemporary&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Greek&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Israeli, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Japanese&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Market Cuisine, Country cooking&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mediterranean Cuisine, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Modern Cuisine, Danish&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Modern Cuisine, Spanish&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Noodles and Congee&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Regional Cuisine, Market Cuisine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Shojin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thai, Contemporary&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;World Cuisine, Creative French&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;American, Californian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;British Contemporary&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Classic Cuisine, Contemporary&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Classic French, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Contemporary, Innovative&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Creative&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Creative, Innovative&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cuisine from Abruzzo, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fujian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;International&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Italian, Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Korean, Contemporary&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mediterranean Cuisine, Italian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Modern Cuisine, Classic French&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Modern Cuisine, Sardinian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Modern French, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ramen&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Seafood, Traditional Cuisine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Teochew&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vegan, Creative&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Asian, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Chao Zhou&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Classic French, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Contemporary, Classic French&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Country cooking&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Creative, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Creative, Scandinavian&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;French, Classic French&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hungarian, Portuguese&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Italian, American&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Japanese, Seafood&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mediterranean Cuisine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Modern British, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Modern Cuisine, Ligurian&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Modern French, Creative&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Piedmontese, Creative&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Seafood, Contemporary&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Steakhouse, American&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Traditional Cuisine, Savoyard&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Asian, Asian Influences&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cantonese&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Classic Cuisine, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Contemporary, Apulian&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Contemporary, Sicilian&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Creative, Alpine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Creative, North African&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;French Contemporary&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Huaiyang, Sichuan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Italian Contemporary, Creative&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Japanese, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Market Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mexican, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Modern Cuisine, Innovative&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Modern French&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Organic, Vegetarian&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Scandinavian&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Spanish&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Traditional Cuisine, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;American, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;British Contemporary, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Classic Cuisine, Creative&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Classic French, Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Contemporary, International&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Creative British&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Creative, International&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Danish&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Fusion&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;International, Classic Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Italian, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Korean, Korean Contemporary&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mediterranean Cuisine, Italian Contemporary&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Modern Cuisine, Contemporary&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Modern Cuisine, Scottish&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Modern French, Seasonal Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Regional Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Seasonal Cuisine, Modern Cuisine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Thai&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Vegetarian&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='restaurant' />
+        <field-sort-custom-order field='Calculation_1312799331250184192' />
+        <field-sort-custom-order field='link' />
+        <field-sort-custom-order field='michelin guide' />
+        <field-sort-custom-order field='address' />
+        <field-sort-custom-order field='price' />
+        <field-sort-custom-order field='cuisine' />
+        <field-sort-custom-order field='michelin guide point of view' />
+        <field-sort-custom-order field='facilities &amp; services' />
+        <field-sort-custom-order field='contact number' />
+        <field-sort-custom-order field='website' />
+        <field-sort-custom-order field='opening hours' />
+        <field-sort-custom-order field='michelin stars' />
+        <field-sort-custom-order field='location_lat' />
+        <field-sort-custom-order field='location_long' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_12776F015A8F4E598AF9AB2433079923'>
+            <properties context=''>
+              <relation connection='excel-direct.0tqiqfb1dc3avz1gbcwgl1v1kmzs' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:N3156:no:A1:N3156:1' header='yes' lost='0' outcome='1' processed='9579'>
+                  <column datatype='string' name='restaurant' ordinal='0' />
+                  <column datatype='string' name='link' ordinal='1' />
+                  <column datatype='string' name='michelin guide' ordinal='2' />
+                  <column datatype='string' name='address' ordinal='3' />
+                  <column datatype='string' name='price' ordinal='4' />
+                  <column datatype='string' name='cuisine' ordinal='5' />
+                  <column datatype='string' name='michelin guide point of view' ordinal='6' />
+                  <column datatype='string' name='facilities &amp; services' ordinal='7' />
+                  <column datatype='string' name='contact number' ordinal='8' />
+                  <column datatype='string' name='website' ordinal='9' />
+                  <column datatype='string' name='opening hours' ordinal='10' />
+                  <column datatype='integer' name='michelin stars' ordinal='11' />
+                  <column datatype='real' name='location_lat' ordinal='12' />
+                  <column datatype='real' name='location_long' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Resaltado 1 (generado)' name='[Action1_3392D76026D9436692BB84E87B66488B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Hoja 2' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='cuisine (grupo)' />
+        <param name='target' value='Hoja 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Michelin Star Restaurants 2021)' name='federated.0ijm19t0cd1ykb1bgke1i1iabq38' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0ijm19t0cd1ykb1bgke1i1iabq38'>
+            <column-instance column='[location_lat]' derivation='Avg' name='[avg:location_lat:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[location_long]' derivation='Avg' name='[avg:location_long:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Location Lat' datatype='real' name='[location_lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Location Long' datatype='real' name='[location_long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[restaurant]' derivation='None' name='[none:restaurant:nk]' pivot='key' type='nominal' />
+            <column caption='Restaurant' datatype='string' name='[restaurant]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:restaurant:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[avg:location_lat:qk]</rows>
+        <cols>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[avg:location_long:qk]</cols>
+      </table>
+      <simple-id uuid='{84FF9C17-12A4-4BF3-BCE0-7643F3235B45}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Michelin Star Restaurants 2021)' name='federated.0ijm19t0cd1ykb1bgke1i1iabq38' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ijm19t0cd1ykb1bgke1i1iabq38'>
+            <column datatype='string' name='[cuisine (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[cuisine]' default='&quot;Otro&quot;' new-bin='true'>
+                <bin default-name='false' value='&quot;Americana&quot;'>
+                  <value>&quot;American&quot;</value>
+                  <value>&quot;American, American Contemporary&quot;</value>
+                  <value>&quot;American, Californian&quot;</value>
+                  <value>&quot;American, Classic Cuisine&quot;</value>
+                  <value>&quot;American, Contemporary&quot;</value>
+                  <value>&quot;American, French&quot;</value>
+                  <value>&quot;Californian&quot;</value>
+                  <value>&quot;Californian, Contemporary&quot;</value>
+                  <value>&quot;Californian, Creative&quot;</value>
+                  <value>&quot;Californian, Modern Cuisine&quot;</value>
+                  <value>&quot;Contemporary, American&quot;</value>
+                  <value>&quot;Contemporary, American Contemporary&quot;</value>
+                  <value>&quot;Contemporary, Californian&quot;</value>
+                  <value>&quot;Steakhouse&quot;</value>
+                  <value>&quot;Steakhouse, American&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Asiatica&quot;'>
+                  <value>&quot;Asian&quot;</value>
+                  <value>&quot;Asian Contemporary&quot;</value>
+                  <value>&quot;Asian Contemporary, Modern Cuisine&quot;</value>
+                  <value>&quot;Asian Influences&quot;</value>
+                  <value>&quot;Asian Influences, Creative&quot;</value>
+                  <value>&quot;Asian, Asian Influences&quot;</value>
+                  <value>&quot;Asian, Contemporary&quot;</value>
+                  <value>&quot;Asian, Creative&quot;</value>
+                  <value>&quot;Asian, Fusion&quot;</value>
+                  <value>&quot;Asian, Modern Cuisine&quot;</value>
+                  <value>&quot;Beijing Cuisine&quot;</value>
+                  <value>&quot;Beijing Cuisine, Cantonese&quot;</value>
+                  <value>&quot;Cantonese&quot;</value>
+                  <value>&quot;Cantonese Roast Meats&quot;</value>
+                  <value>&quot;Cantonese, Sichuan&quot;</value>
+                  <value>&quot;Chao Zhou&quot;</value>
+                  <value>&quot;Chinese&quot;</value>
+                  <value>&quot;Chinese Contemporary&quot;</value>
+                  <value>&quot;Chinese, Beijing Cuisine&quot;</value>
+                  <value>&quot;Chinese, Contemporary&quot;</value>
+                  <value>&quot;Contemporary, Asian&quot;</value>
+                  <value>&quot;Contemporary, Japanese Contemporary&quot;</value>
+                  <value>&quot;Creative, Asian Contemporary&quot;</value>
+                  <value>&quot;Creative, Japanese&quot;</value>
+                  <value>&quot;Dim Sum&quot;</value>
+                  <value>&quot;Fugu / Pufferfish&quot;</value>
+                  <value>&quot;Fujian&quot;</value>
+                  <value>&quot;Fusion, Japanese&quot;</value>
+                  <value>&quot;Hang Zhou&quot;</value>
+                  <value>&quot;Huaiyang&quot;</value>
+                  <value>&quot;Huaiyang, Sichuan&quot;</value>
+                  <value>&quot;Hunanese&quot;</value>
+                  <value>&quot;Hunanese, Sichuan&quot;</value>
+                  <value>&quot;Izakaya&quot;</value>
+                  <value>&quot;Japanese&quot;</value>
+                  <value>&quot;Japanese Contemporary&quot;</value>
+                  <value>&quot;Japanese Contemporary, Fusion&quot;</value>
+                  <value>&quot;Japanese, Asian Contemporary&quot;</value>
+                  <value>&quot;Japanese, Classic Cuisine&quot;</value>
+                  <value>&quot;Japanese, Contemporary&quot;</value>
+                  <value>&quot;Japanese, Creative&quot;</value>
+                  <value>&quot;Japanese, Modern Cuisine&quot;</value>
+                  <value>&quot;Japanese, Seafood&quot;</value>
+                  <value>&quot;Japanese, Seasonal Cuisine&quot;</value>
+                  <value>&quot;Japanese, Sushi&quot;</value>
+                  <value>&quot;Japanese, Tempura&quot;</value>
+                  <value>&quot;Jiangzhe&quot;</value>
+                  <value>&quot;Korean&quot;</value>
+                  <value>&quot;Korean, Contemporary&quot;</value>
+                  <value>&quot;Korean, Korean Contemporary&quot;</value>
+                  <value>&quot;Korean, Steakhouse&quot;</value>
+                  <value>&quot;Modern Cuisine, Asian Contemporary&quot;</value>
+                  <value>&quot;Modern Cuisine, Asian Influences&quot;</value>
+                  <value>&quot;Modern Cuisine, Sushi&quot;</value>
+                  <value>&quot;Ningbo&quot;</value>
+                  <value>&quot;Noodles and Congee&quot;</value>
+                  <value>&quot;Peranakan&quot;</value>
+                  <value>&quot;Ramen&quot;</value>
+                  <value>&quot;Shandong&quot;</value>
+                  <value>&quot;Shanghainese&quot;</value>
+                  <value>&quot;Shojin&quot;</value>
+                  <value>&quot;Sichuan&quot;</value>
+                  <value>&quot;Soba&quot;</value>
+                  <value>&quot;Southern Thai&quot;</value>
+                  <value>&quot;Sukiyaki&quot;</value>
+                  <value>&quot;Sushi&quot;</value>
+                  <value>&quot;Taiwanese&quot;</value>
+                  <value>&quot;Taizhou&quot;</value>
+                  <value>&quot;Teochew&quot;</value>
+                  <value>&quot;Thai&quot;</value>
+                  <value>&quot;Thai contemporary&quot;</value>
+                  <value>&quot;Thai, Asian Contemporary&quot;</value>
+                  <value>&quot;Thai, Californian&quot;</value>
+                  <value>&quot;Thai, Contemporary&quot;</value>
+                  <value>&quot;Thai, Traditional Cuisine&quot;</value>
+                  <value>&quot;Unagi / Freshwater Eel&quot;</value>
+                  <value>&quot;Yakitori&quot;</value>
+                  <value>&quot;Zhejiang&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Española&quot;'>
+                  <value>&quot;Catalan, Contemporary&quot;</value>
+                  <value>&quot;Creative, Andalusian&quot;</value>
+                  <value>&quot;Creative, Castilian&quot;</value>
+                  <value>&quot;Galician&quot;</value>
+                  <value>&quot;Spanish&quot;</value>
+                  <value>&quot;Spanish Contemporary&quot;</value>
+                  <value>&quot;Spanish, Contemporary&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Francesa&quot;'>
+                  <value>&quot;Classic Cuisine, French Contemporary&quot;</value>
+                  <value>&quot;Classic Cuisine, Modern French&quot;</value>
+                  <value>&quot;Classic French&quot;</value>
+                  <value>&quot;Classic French, Classic Cuisine&quot;</value>
+                  <value>&quot;Classic French, Contemporary&quot;</value>
+                  <value>&quot;Classic French, Creative&quot;</value>
+                  <value>&quot;Classic French, French&quot;</value>
+                  <value>&quot;Classic French, International&quot;</value>
+                  <value>&quot;Classic French, Market Cuisine&quot;</value>
+                  <value>&quot;Classic French, Mediterranean Cuisine&quot;</value>
+                  <value>&quot;Classic French, Modern Cuisine&quot;</value>
+                  <value>&quot;Classic French, Regional Cuisine&quot;</value>
+                  <value>&quot;Classic French, Seasonal Cuisine&quot;</value>
+                  <value>&quot;Classic French, Traditional Cuisine&quot;</value>
+                  <value>&quot;Contemporary, Classic French&quot;</value>
+                  <value>&quot;Contemporary, French&quot;</value>
+                  <value>&quot;Contemporary, French Contemporary&quot;</value>
+                  <value>&quot;Contemporary, Modern French&quot;</value>
+                  <value>&quot;Country cooking, Classic French&quot;</value>
+                  <value>&quot;Creative French&quot;</value>
+                  <value>&quot;Creative French, Classic Cuisine&quot;</value>
+                  <value>&quot;Creative French, Creative&quot;</value>
+                  <value>&quot;Creative French, Market Cuisine&quot;</value>
+                  <value>&quot;Creative French, Modern Cuisine&quot;</value>
+                  <value>&quot;Creative French, Modern French&quot;</value>
+                  <value>&quot;Creative, Classic French&quot;</value>
+                  <value>&quot;Creative, French&quot;</value>
+                  <value>&quot;Creative, French Contemporary&quot;</value>
+                  <value>&quot;Creative, Modern French&quot;</value>
+                  <value>&quot;European, French&quot;</value>
+                  <value>&quot;French&quot;</value>
+                  <value>&quot;French Contemporary&quot;</value>
+                  <value>&quot;French Contemporary, Creative French&quot;</value>
+                  <value>&quot;French Contemporary, Modern Cuisine&quot;</value>
+                  <value>&quot;French, Californian&quot;</value>
+                  <value>&quot;French, Classic French&quot;</value>
+                  <value>&quot;French, Contemporary&quot;</value>
+                  <value>&quot;French, Creative&quot;</value>
+                  <value>&quot;French, French Contemporary&quot;</value>
+                  <value>&quot;French, International&quot;</value>
+                  <value>&quot;French, Seasonal Cuisine&quot;</value>
+                  <value>&quot;Home Cooking, Creative French&quot;</value>
+                  <value>&quot;Market Cuisine, Modern French&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, Classic French&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, French&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, French Contemporary&quot;</value>
+                  <value>&quot;Modern Cuisine, Classic French&quot;</value>
+                  <value>&quot;Modern Cuisine, French&quot;</value>
+                  <value>&quot;Modern Cuisine, French Contemporary&quot;</value>
+                  <value>&quot;Modern Cuisine, Modern French&quot;</value>
+                  <value>&quot;Modern French&quot;</value>
+                  <value>&quot;Modern French, Classic Cuisine&quot;</value>
+                  <value>&quot;Modern French, Contemporary&quot;</value>
+                  <value>&quot;Modern French, Country cooking&quot;</value>
+                  <value>&quot;Modern French, Creative&quot;</value>
+                  <value>&quot;Modern French, Creative French&quot;</value>
+                  <value>&quot;Modern French, French&quot;</value>
+                  <value>&quot;Modern French, International&quot;</value>
+                  <value>&quot;Modern French, Market Cuisine&quot;</value>
+                  <value>&quot;Modern French, Mediterranean Cuisine&quot;</value>
+                  <value>&quot;Modern French, Modern Cuisine&quot;</value>
+                  <value>&quot;Modern French, Regional Cuisine&quot;</value>
+                  <value>&quot;Modern French, Seasonal Cuisine&quot;</value>
+                  <value>&quot;Modern French, World Cuisine&quot;</value>
+                  <value>&quot;Organic, Creative French&quot;</value>
+                  <value>&quot;Seafood, French&quot;</value>
+                  <value>&quot;World Cuisine, Creative French&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Inglesa&quot;'>
+                  <value>&quot;British Contemporary&quot;</value>
+                  <value>&quot;British Contemporary, Classic Cuisine&quot;</value>
+                  <value>&quot;Contemporary, English&quot;</value>
+                  <value>&quot;Creative British&quot;</value>
+                  <value>&quot;Creative British, Modern Cuisine&quot;</value>
+                  <value>&quot;Irish, Modern Cuisine&quot;</value>
+                  <value>&quot;Modern British&quot;</value>
+                  <value>&quot;Modern British, Creative&quot;</value>
+                  <value>&quot;Modern British, Regional Cuisine&quot;</value>
+                  <value>&quot;Traditional British&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Italiana&quot;'>
+                  <value>&quot;Campanian, Mediterranean Cuisine&quot;</value>
+                  <value>&quot;Campanian, Regional Cuisine&quot;</value>
+                  <value>&quot;Classic Cuisine, Italian Contemporary&quot;</value>
+                  <value>&quot;Contemporary, Apulian&quot;</value>
+                  <value>&quot;Contemporary, Italian&quot;</value>
+                  <value>&quot;Contemporary, Sicilian&quot;</value>
+                  <value>&quot;Contemporary, Venetian&quot;</value>
+                  <value>&quot;Creative, Italian&quot;</value>
+                  <value>&quot;Creative, Italian Contemporary&quot;</value>
+                  <value>&quot;Creative, Organic&quot;</value>
+                  <value>&quot;Creative, Sicilian&quot;</value>
+                  <value>&quot;Cuisine from Abruzzo&quot;</value>
+                  <value>&quot;Cuisine from Abruzzo, Regional Cuisine&quot;</value>
+                  <value>&quot;Innovative, Italian Contemporary&quot;</value>
+                  <value>&quot;Italian&quot;</value>
+                  <value>&quot;Italian Contemporary&quot;</value>
+                  <value>&quot;Italian Contemporary, Contemporary&quot;</value>
+                  <value>&quot;Italian Contemporary, Creative&quot;</value>
+                  <value>&quot;Italian Contemporary, Japanese&quot;</value>
+                  <value>&quot;Italian Contemporary, Modern Cuisine&quot;</value>
+                  <value>&quot;Italian Contemporary, Piedmontese&quot;</value>
+                  <value>&quot;Italian, American&quot;</value>
+                  <value>&quot;Italian, Californian&quot;</value>
+                  <value>&quot;Italian, Contemporary&quot;</value>
+                  <value>&quot;Italian, Creative&quot;</value>
+                  <value>&quot;Italian, Emilian&quot;</value>
+                  <value>&quot;Italian, Italian Contemporary&quot;</value>
+                  <value>&quot;Italian, Italian-American&quot;</value>
+                  <value>&quot;Italian, Mediterranean Cuisine&quot;</value>
+                  <value>&quot;Italian, Modern Cuisine&quot;</value>
+                  <value>&quot;Italian, Regional Cuisine&quot;</value>
+                  <value>&quot;Italian, Sicilian&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, Italian&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, Italian Contemporary&quot;</value>
+                  <value>&quot;Mediterranean Cuisine, Sicilian&quot;</value>
+                  <value>&quot;Modern Cuisine, Italian&quot;</value>
+                  <value>&quot;Modern Cuisine, Italian Contemporary&quot;</value>
+                  <value>&quot;Modern Cuisine, Piedmontese&quot;</value>
+                  <value>&quot;Modern Cuisine, Sicilian&quot;</value>
+                  <value>&quot;Piedmontese&quot;</value>
+                  <value>&quot;Piedmontese, Creative&quot;</value>
+                  <value>&quot;Piedmontese, Modern Cuisine&quot;</value>
+                  <value>&quot;Piedmontese, Regional Cuisine&quot;</value>
+                  <value>&quot;Provençal&quot;</value>
+                  <value>&quot;Regional Cuisine, Italian&quot;</value>
+                  <value>&quot;Seafood, Italian&quot;</value>
+                  <value>&quot;Tuscan&quot;</value>
+                  <value>&quot;Tuscan, Regional Cuisine&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Vegana/Vegetariana&quot;'>
+                  <value>&quot;Californian, Vegetarian&quot;</value>
+                  <value>&quot;Japanese, Vegan&quot;</value>
+                  <value>&quot;Organic, Creative&quot;</value>
+                  <value>&quot;Organic, Vegetarian&quot;</value>
+                  <value>&quot;Vegan&quot;</value>
+                  <value>&quot;Vegan, Creative&quot;</value>
+                  <value>&quot;Vegetarian&quot;</value>
+                  <value>&quot;Vegetarian, Modern Cuisine&quot;</value>
+                  <value>&quot;Vegetarian, Seasonal Cuisine&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[cuisine]' role='dimension' type='nominal' />
+            <column caption='Michelin Guide' datatype='string' name='[michelin guide]' role='dimension' type='nominal' />
+            <column caption='Michelin Stars' datatype='integer' name='[michelin stars]' role='measure' type='quantitative' />
+            <column-instance column='[michelin guide]' derivation='None' name='[none:michelin guide:nk]' pivot='key' type='nominal' />
+            <column-instance column='[michelin stars]' derivation='Sum' name='[sum:michelin stars:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:michelin guide:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[sum:michelin stars:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[cuisine (grupo)]' value='Tipo cocina'>
+              <formatted-text>
+                <run>Tipo cocina</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[cuisine (grupo)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:michelin guide:nk]</rows>
+        <cols>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[sum:michelin stars:qk]</cols>
+      </table>
+      <simple-id uuid='{5D374761-4068-4242-BADF-E4CE4B547059}' />
+    </worksheet>
+    <worksheet name='Hoja 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Michelin Star Restaurants 2021)' name='federated.0ijm19t0cd1ykb1bgke1i1iabq38' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ijm19t0cd1ykb1bgke1i1iabq38'>
+            <column caption='Michelin Stars' datatype='integer' name='[michelin stars]' role='measure' type='quantitative' />
+            <column-instance column='[restaurant]' derivation='None' name='[none:restaurant:nk]' pivot='key' type='nominal' />
+            <column caption='Restaurant' datatype='string' name='[restaurant]' role='dimension' type='nominal' />
+            <column-instance column='[michelin stars]' derivation='Sum' name='[sum:michelin stars:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:restaurant:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[sum:michelin stars:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:restaurant:nk]</rows>
+        <cols>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[sum:michelin stars:qk]</cols>
+      </table>
+      <simple-id uuid='{3BDA20E6-CE84-452C-BF5D-0E92B56E67B5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:cuisine:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:michelin guide point of view:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:price:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:restaurant:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F24AD4CD-5649-4D6A-A4C4-E8063241FA51}' />
+    </window>
+    <window class='worksheet' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card pane-specification-id='0' param='[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[cuisine (grupo)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:website:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0DC2B1CE-CACD-4182-9A7F-B5DBE847839C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Hoja 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[max:price:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[min:price:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:facilities &amp; services:nk]</field>
+            <field>[federated.0ijm19t0cd1ykb1bgke1i1iabq38].[none:michelin guide:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ECE89DDD-9517-4988-B3E9-A684DF5CE1D9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      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
+      1ECzu13RcQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 2' width='192'>
+      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
+      8BiF6gM5AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO29aYxlaZqY9Zz13nP3fYsbe0ZGZlZWVVf39HTP1swwdltmsBkzwoAt2UJC
+      YBkZaySDBSOD4Y8lBBgNohGLbBCDPGLAxjJjy/Yw9Kzd01utmRm5xB5x9309556NHxGV1dWZ
+      lZmVGXHiZsR5fuRy4tz7vveL+57ve7/vXQTXdV18fK4o4kUr4ONzkfgG4HOl8Q3A50rjG4DP
+      lcY3AJ8rjW8APlea19IAHMfxVJ7runi5W+y1PPB+TOdFnvzxP1zHAUEEPh58FxBxHRvbcRBF
+      CdexcQUBWZIQRBHXcRAEAdM0EUQREbBdF0WWEQThsWBR/LSdPe3aJ9dP3g9BRJZlhKcoPZwY
+      /Ppv33nJofj8fPxdFJ6mzLnIcwHBM3kAjuMiit4JnBd5jw1gUNliHL9Fijb1kYg9OGQqJikm
+      VN794A63377N/oMDsuUizmjE4q0bVB4+JF1IcGe7TrlYoHm8Q1ALEc0uUs4laNYqHLcGbK6U
+      6E9tCtkUAB9+8D43Njdo9acU01HubT1g8dotKvsPuHHjOt//9ncJhDU2bt5m0K6Ryi8QVKTH
+      Sk8Ni3/87UceDJvPZeeJx3AgkmIpn6A7nDEZtEhmC5QWSuQzCWzLwrKenEos08R2XBzHYaqb
+      aMEAo3aNka2gBSTef+9dtj56n9Hs9LWCwKOdXWS9zbsf3aM7HLF/cPT4/WzLxHIFBvV97ECU
+      7YcPz28EfK40j2cAQRDZfXiX8OY6mtNDjWQJuiP6E/PxckUUBRzXwTWn3N+6j4YIgoAoCDiO
+      QySRJhaQmU51QkGFTvMYUVKIRqMktBgBSeBw9yGCHEIRdCqtIYlUCkFUKObTdBo6ANliGcHV
+      cUSZxvEh4UiMfr8PQDwev4Bh8rmsCK9jLNBwrPObf+TdEsh13RNfxKNFueu4Jz6Uhz6A6zgI
+      T/HLLru819IAZjOTZn/qmTzn1AAEjwzAcRwEUUDw0AJs20aSpOffeMnkyU+598w43tumO56S
+      L62QTUYeX69WqxQKBWq1GpFwBBeXWCzGYDAgFot96j1c12U4GhGLRh9f6wx1/vLf/sfnqbrP
+      FeFcDWAyNblx6w0e3b+PM9E4bgx5+53bMBvTHQ4ZTUx0vcnB7g4r6xvcv7fF2198h1qlQiAS
+      RzAGaIkCtjmldrjH2IA3v/Dmearsc8U490WYY5vYrkCz1aJzdMQUyOZz3Hv3PTILC+j6jGyh
+      yOLSEuXFRaKKRTS3jD2bIgciLJZy6PoYy5XJhiQm9nlr7HOVONcZIJ2Osb29z9r6Ov3mMVoo
+      RQCQg1GW19dIBiWEYgFFsDmuNcmmokyEKJJeI1csE5RO1sDF4gK2PmZgCERl0AWIhtTzVP3q
+      cXL2duXkvZZOsNcO1MfH6E87vT4PbNtGEATP5AFYloUsn+vzcC7lvbQG+nhIuz8il89hzSw0
+      LfDc15jGlFZ3QC6XQ3qBY/DpdIqmaU9c7491fvX/+u5L6e3zdFzX9WyXa57kvbQBHO4dkCwV
+      ePjoEfl0numwzdiSSURURhMDTRGZuRLGqEsomScVDXD33gMWFxcwjBn1431imRKSNaLeGlEq
+      52jV6yTzZcbtKoKWQJUcLNtiPByhBWTaoxmrSwvMTId3H9ZeaUB8fOAVDMCxZ1QqNdKZBM1a
+      g2anhhII0tVU1q7f4tGdj1hbLXL/uEV4YJDaXESNJhk29unFlhhPptQePiAZ1Qja0Gg2SRWK
+      tI6rzGYjGkcN8uk4suCQKa2y9cF3cVyFwsLCWX5+nyvOSxuAFkmwvraKjMHuyCWdiCGHE2gB
+      mUhQIZPPEwrHCGsK2WwGIRBB0ncZzFyiMQvbEdGCCoI947DaY/nWBlowQECVGI9NNE0jEAig
+      qirJaIhUKoVFENW7pb/PFeDCneCjvW16E5tbt66/8J7seGrwvfvVc9Xrh/H+JPhkveplOLTt
+      OEgeOt3zIu/CDeBlmOoz7u63PJN3MQbgnTyYny/kebFWTJCMhZ64fm77UI3qIfcf7rF+4xal
+      XBqA4WBINBZ94l5TH/Hu994jkC1we+MakgjdToNgKIUWkNg/OGR5eenx/f2xwX/+v/7ueanu
+      cwn5z/6tr3lrALniIp3umGI2wbvf+RauliISEDEnPT64t83NjUUe1acko2FuXV9lMZdDW1ul
+      Vdnho7v7rN9aZn+/SiiewjYm3Hv/e1TbE37qZ792Xir7XEHOPxRi2sFUYowGfWzbptHuEQ+p
+      DCcGS2vXCfyICba6Q6KKxdiUWFxawjYNAPqjCStLZW9PD30uPed6FLe0vISoBSmmJkTXl1Fl
+      ESyDzsggk4giqDJOsAhAulxGlESWygsM0zkSyTi1ap319TWsmY6wWKTeHaMKoMgiG+XUeap+
+      9ZiT0ITzQgsoT73+WjrBfijE2TMvoQley/NOg1PqlQOanQHp/ALFbPLTP3RdGrUjDAKU0lEM
+      W8SyLWKRMADD4YBoNEZnMOVv/J1veq26d3j9NL4Amb/6V/6Ed8KegecGkC8t0e1tkU9F2X10
+      n0giQ6tZZ2FpHcXs0dFF4naDQ3MCSoRwQKLV0hFxsVyXaBRsx6XaHnmtus8lxHMD+BjXsZma
+      Lm79CMMR6fT6JCSDaDRJ0p3xqGMSkSyanRGSpYNwUqMol81elMo+l5ALMYBoNIogiGSzWTTJ
+      YnTUJBYNEw8nqdzbouVKXF/JM5xJSKKE5jhM5TSiObwIdX0uMa+lE6wbJvv1vmfyLiQpXhAu
+      9UnwWimBchWd4LPAsm0eHnc8k3cVyqJ8VrnK82KtOB/1nV7IAPrtOt97/w7rGzdZKKRxEZFE
+      4XEtT8cB17EQZRVZErHMGUf7R5TXVjCNGbLZ41gPU45YvHvvgEwux2IhjeWAKktYtoMogmU5
+      BAIquq7j2CZSIIRgW0iKAo6D7UJAVRhNTf6nf/SD8x4bn3Pk619avWgVgBc0gHg6T7HUZbmU
+      4f0PPgREJEUkHMvQre5TKJf58L0PCCTy/OxX3+LuvS1Mw2Z69z1294/YuHYdIaYhygEkbERR
+      5HDnPu89rPDF6wsMhShxacoP7mxza/M6rigiCy7BoEK1OUULStjTIbbtsvnFL53zkPhcJT73
+      nCeIJ09/ORhhdalEMlMgm4yQLS5xc2MV13VwEU5SHiWFm2+8TSYeBE6iHNPZLO1Wg/5oSiYZ
+      RZACrK0t0e2PWMinMEwLVT1NeBdFyovLJ4VxBcHTNarP1eCFnWDTNFEUBUOfYCOhyhKyLJ84
+      F5LEZDJCkANoARV9MsZGQgvIDEcTIpHQ6bLpJCI0EArjWgaWKxJUFSRJZmZMMG3QtCCT0Yhg
+      KIQoAMJJWXbHtjBtCIeCdIcT/s5vvnfOQ/MJHw+QV0ty9/RUysuzMMd1ET10uv/KL30ZVXl6
+      eMJ58FlO8Gu5C+SHQpw98xKa4LW8c9HAdV12HnzEYOqyvr6EZaukEk/GYv/w/ccHO1hSiJVy
+      8an3OLZ14jQrMs3ehL/0X/3meaju4xH/x9/8pYtWATgnAxAEgfW1Je7tjREtEzUY4N7dO0RT
+      OcbtGjNXYbGY4KhSJ5lfIR3UmRBhvZjhcO8R3ZFJIZcgFkvS7o8YtY5wXJdaZ8ZP/fRXgE+W
+      JT4+r8K5z7GRZBZxNsG0XaqVI5RglJSmctwd8sbmIoOBjmvbiJKCKIqMdZOluMB+o49pWfSH
+      I1wpwOryIitrqyh+PoDPGXJ+BiAGSJ9WhJYVGUmSSKczJBJxIokEuajGBx9t4YgiwUQBcdpg
+      96BCPKJxNJK4uZhlf2+PSDhCLpdD1aJM+y1M/9Hvc4ZcmBM8HfbYrzRZu7aOKn0+OzQti4lh
+      nZNmT+I4p6EQHjV1c+zT/gBehkJYNpLs3cZCOCDPhRP8hAG4rvv4WPyzfwEurvv02BjntBPH
+      i/zqnixX5+I4J+oIgogg8Lhd6A/f1x9N+Y1v3nsBCWeD67ogeLcx6XXZwIuQ+Rf/xJsoc7AN
+      +sSVB/c+xBEUyivrTPstorE4H310l81bbzAddIkks4Q1kbsf3KWwvEooIBNQFUwbAqrIt775
+      W9z8ys+hodMbTtHcIY86Am9dK9LqDChkk7S7PQKhGMZ0SDIWodEZUizkGHXqbB82icQSlAsZ
+      FFXBsiyGgwmZ7CcpkFPD4h/94YPzHTGfc+UvfH0++jw8YQCZdIqDSpP28R57lQbhWAJFUQhI
+      LtvVY6bHDX7yy2+CKHN8uEc4qKIqMtH8MnanSii7QPX4GGZ94qEAY0lGDcXY2d4mnYrxaOsu
+      RiiP0j3EdSzajTqpRITDagfGHdbWV3nwcBemYwpLORqdEbOx9SkD8PE5K55YfM9mFooMU8Mm
+      HI1SXighOAbNVhPTUZBPX6GPBxiWS7mYY78+IKHJ1FsDsuk0ljEmFIkSi4aRtQj9Zg1ZEqjW
+      WwSDQZLJFKp60kxblQSqjQ6BgEo6neHhg0dYpokk2jx4sI3tnqyF+/3+406RPj5nxSs7wd3G
+      MVMhTCmbOCudnstgrHu6BPK6c/tV6BT/Z3/25lz4AK9lKMTMNOkODc/kOY7zuB+yF9iOg+hx
+      Qoxl28gehpekY8G52AU6Bw1s7rz3Ia6qsbJYJBCKoTxtXB2barNDMf9Jjm+zWiNZLDxXqc5A
+      59/1QyFea37j8oZCOEhqhFDAoV5rkEqb7B9VKWSS1Ns9MskY7U6HdLZIfzhg1Kkxngm88eZt
+      Bt0e8WKBfrvO3mGN8lKJw8MaSjCM6owZGQJvvn377FX2ubKcy0lwq36MG4yjYtJotFnd3GQ2
+      GrJ6fZPpaMi1zesMuycpjaYrko8IjGafvL7ZajHttzg8rFBe38Q1J5iuTFYTGftdIn3OkHOY
+      ASRuf+ELJJJxRn2VfCjM/u4OhdIitf0diuVFDnYPWFxdZWbo2PqQgSFQCIKTivJo6z6ZZApX
+      VMlm0mzf/xBX1ljJRBkYArHTLpHajxYV9fF5CebaCXZsk+PjCtli+SQr7BQ/H+DsmZf4fK/l
+      fS4DGA6HRKJRjMkIQQmCc5LE/jLouk4wGMQwDBRFwrLBMQ3kgIZtmaiq+pm7IJ3BhG/83997
+      Kbkvw0Vsg172UIj/8N/8ibnICPtcJnjv/e+w/s7XOPzgeyRWbhPTZCajLhYKg3aTzMIyeq/O
+      xBKwTIuV5UUO9nbJl1cYd2tMbZl+fR81sUA2ESIYDLK9u0spGcYO56k9/BAtu85s3CIi2hwO
+      4dbGMtPxBFVyGM4ElhYKzEyb725VzmxwfC6AOVl3fK45NlVYoFfdQVDCYM1od3rs7B0S1SRG
+      U4P79x/SHU4YdttEgzK7D+8TLyxxsLtDuzdkZoyJJtOsLi/QanzS4iiRXySt2dQ6EyqHewBE
+      Y3GWlpepHewQikWpNnqIozZD74JAfa4An2sGCAQjDJpVSkuLzBwJQYBcvoBjTLEFmUBAIhIJ
+      YaoBgoEAQirJ4c4DYokMAcnGRUATHXYPjh8vnQKnFSDatQbv/MRPM6odMkUgEAqxvXNIOpUi
+      FtKQ3RnNMRQlmJz9OPhcUebaCf4sxlODb9/1bgnkug4nPoBX4dAnJ89e1oVwHBtR9G5j4Wtv
+      LaIoF+8Ev5Z7iaIokI5rnslzndN8gEtcG9SxbUQPd9bmpdXVCxvAw3sfkC5vYI/qdKcK19dO
+      OraPBkNCsegznYn9w0OWFxefK6N+dECytIR6+mYfN8T4Ufojg//0MjfIuAK8dqEQoqLSaTbA
+      mWCbKlsfvktvJpGJaiitCq2BxUI2TL3dJ54q0jx+gBBI8GNfuM14PAagerDN1l6NzeUslc4Y
+      07CJJuIw6dLWYTEdwakdUW91icbTOLMBD+/eIbmwyqxXpdae8NWf+alzGwyfq8eL7wJJKo4x
+      QFJCCOaEkSkyGQywbJt4Mk3QGVNtT1leXWE6HpHOlUjGT2sBuSepju3eANmaoTuwdu0amWye
+      kAK9oU6pkEMARsMxS2tr6JMRtm1TXFig123T6Q1YLBXOZRB8ri4vPAMUC0VExwQ1hJ2Z0e80
+      WFpeJhxUkLAJporcXCywt3/ItWsrWDPj8VZvLhVje2efUqlIPF0kk4ohKyrBooKASzaVoDOx
+      yeWzqMEgB3t7bFy/hqlPGA+6lBcWCa+UqHXGqCLIkshaMflMfc8S9/STeJYTzGk5dg8Xyicy
+      PVyYz4kP8FruAvmhEGfPvIQmeC3PMw1mkwFDUyIVC1KttiiV8s99jWObTA0L27aIRaOPr3eH
+      U/7m//K756nup/j4EeFdKIS38k5kehsK8V//e3/cM1nPwjMDmIw6PKwY3CyGeHTYIijb1LoT
+      1peK7OzuEc8U0Xs1LDlCKRViv9JiaSFPvTsiEQ3RqBzQmTjcuLaCZbscNgZeqe5zHszJusPD
+      gvsiAdGhOjTIRIOMRmM6R0ds7x+ytLZOr9fDFhVETI6qTTbX8uwfNQFoNJuMRiOO9/YxvVPY
+      5wrg2QygqBorSxGqjRGxaABTHxGKREim4mzf38JWwqTSJ8scSVO59+CQYnkR07IJyAL6sEs0
+      Fn2OFB+fz8eFO8H6qMfO/jHFpVWS0c8uof6p1xgztqvelUhxT51gwSOn1D09CfbSCfD6JPh6
+      Oel3iQQIRhLceuPzlVSxbJdDD9ukPq0843niuKehEJ7GAnnbJfL6gnfb2M/ilQxg3NhhqC2T
+      j4jMZjMUVUW0db75R+/zL/zkV/jD/++3+MLP/Dyyc5LgYlsWB8cVVpbKWLaDLEmP415s20ZR
+      FMzZDFlRsW0TQZTBsUEQEXCx3ZMGGaPpjP/+H3qXEONz9vyL7yxftArAKxqAY5lYDlj6kD/4
+      /W+TWdrgrbU8EdmlWq8jqBGmoy7vfufbFJdvYhsjDBsGjUOOah2WNq4jiwqOMUC0DRJLt3j4
+      3reJFtYYVh+x8faPsfPRByzdeAu7X+HdhzV+8U99/aw+u4/Pqy+BOq0GrtMjv7KOPjmJ1E8W
+      F3l0b4tyMUe91mBlY41+c0gwGkQRTERB482332Zmu6wsLXF0sMtCXGKr2SRVWsKY6qysrlGt
+      1FlZW6VSraBikIuG/F0gnzPllZxgxzLp9PqEIxEM3SAU0lAVGdN2sC0LWRJBEBiNJ4S0MDN9
+      jKAECEgCw4lOJBJGlqQTB0UUsFwYj0ZooTCz6RhFC2MbEwRFQ7ANTEckGg3TG0z4H/+fd89y
+      HJ6J553iPZZ3ItNBELzzAX75X/vxucgJvvBdoJfBD4U4e+YlNMFreRe2C2RNBwysAKlo4Dl3
+      ugyHQxzHJR6PA9DqT/jLf/ufnL+SPufG3/sbf+aiVQAu0gDGXY7bFlaxjDXuoA+7jGcuq8tl
+      dvcOiSTiGP0e8XwZzCm6PmU8GpIvlXFdsGznolT3uUR4GArxaVxcRFtnMDXp9fugBCikIxzs
+      17j2xm30cR9ZUTAMnX6/z7jXpNnXkeYkjNbncnAhM4A+6vGoOmFzc5WtrR0C4SjxWJiAIlJU
+      Q9z/6ANsB2IaiKJEMpVClrO41gzdeu1cFp85Zu6cYFMfs713SHl5nYj29F0C07QYTr3bED3p
+      DwCiR7sktmMjCs9qUngOMm0LSfLueRgLKXPhBM+dAbwIg9GUv/979z2T53UohNfywPtQiD//
+      x96Yiw4xj6/0j+4yDi3Q74y5uZbn7sNtbm2so5s2uA6S4NIZTMhlU3SadeRgDEUw0S2RVCKK
+      Y8843r6PFS0R02TSiTg7995jqqRZzUawlRCzcQ9JUbGRiGsK7cGEXCYFrkOj0SSTy2NOW3zr
+      e/vcWksjxfPY4x7xdJ6g+sm258Sw+Ae/t+XNyPmcC3/u59+4aBWA5/kA5oSd4z6iMcJ1LOLR
+      IPc+bBBMpRjVHiIgo8ouAe0m1b0d4mGNganTnbmkEzGGuotjdBjLJro6YTTWGXS7RKIRGo5F
+      MqxwKAZx27sc1Nu0RibrpRCFpEa1PaIYinOwv49b6/Lj78zHgPlcLj495wmP/6BVO+aw0aVX
+      P6LR6SMJDs12Dy0UpNtqoM9sHEtnOJkhiQICNvVG66SBNgJGv4Grhglg0jNOThmTySSxWBwt
+      qCILLvV2n6AiEQhoRBNpirmTVqjxbJlxp8p00MZRIgg4fpdIn3Phc/sAljHmwfYugXCS9eWF
+      89LrmQxGU/7B73vbJdLzUIgfehh5I9PbUIg/9/O35sIHeC2dYNO06E9mz7/xjHAcBwHvEmIu
+      ojSi1+ElibA6F7tAP3TFpV5rEA5K7B/XSeVKjNs1ljeu0251ABsBgVw+T6NeJ5/L0OoMyaR/
+      NJnF5d6du1y/9caPHFo5tFs90pnnd3wf91vsHNVZWrlGPPxkqER7MPW7RL7mzGVpxG6nS9u1
+      WVooYAoKA8vg4LDCTNcBi1RQpjuO0u1PyGcddh5uUanGiUVD5CIqk2CGpGyAo3NQ7WH3jxhO
+      ZiytLVM5OgYxSOVoj1S+yKDTIRhPIZkjBgZEFIcZAa6tr7B3VOf2rVs4tsHWnTtoiQzLC88v
+      o+Lj83l5Yk5XRJfecMLh4RGKFifElIF+0pUiWy5z5zt/RPG00G0oGkdwTGLhIB/sNkiHZKrH
+      Vcobb2EMaohqiLV8nHqnRzyVRhIFgpEEMcXi0d4hg+GAeqXK/Yfb4DjMjCmWDQHJpVpv0G01
+      abQ77O4fYRgGhuFdc2yfq8EP+QAuM8NEUSTa7Q6ReBIJF1kRmUxmyIpIQFUZjyeEQmEEXPq9
+      DlIgzGzUoqvLrC8VMAyDQCDAzJiBICAJLkgSvW6PcCSKKAqoskyv10HVolj6GOQAqugwNV0S
+      8Si4Nu1Wh1giwXAwIByJniamu2iaRncw4Rv/8PueDdLVyAfwtjDWf/BvfNXPB3hZ/HyAs2de
+      4vO9lveKGth0uyPCQZGZoBEJPuPtXIdOt08qlXz8/0f3tyAQoZhJooajKE/5fbuuS6/XI5n8
+      pIpAqz/h3//Vf/pqqvtcKP/bf/yvXLQKwCsbgMXRYYViSmaiZDjYrpDIFpj1mwQjUVq9EVpQ
+      Y2UpT7PeQVAD3L/7IbHsAsV0DBOFmKBTb/QoLMDWw31KpQKVSo1iMU+1WqO0tEajXmPYbTGY
+      wRubG7gu6DO/W57Pq/PKc2y/06LWaGGMR5guHFcOmZoChXgAUUtSTgd5//0t1HiaXDqBJEnM
+      Tp3Zdr3CyFQQ9TF7RzU2bt5i1G6zcfs2g1ab67c2aVZrgMNk5pCRbPr2q2rs4/MJrzgDSFy7
+      cYNEWKI/sdCnIslEkkQkAnKAXEpCjQZxnUOSIeVx2WNBOEmWv3bjFoV8lk61Ri4Z4dHWPUrF
+      Ao/u3KFQyPHg7n1KS2uY+hBzMqRtCNySQD+DD+7jAx44wdNhj7EtkUmcXV3PmWnRG3m3Jep1
+      PsBVOAlORQOXwQl+Plo0wVn3c9RnJv/su9tn/K6fjfelEU+2QS9zPsC//nM3PZP1LC6uNqht
+      8rt/8IdEIzHWb9wgqKi4jgW2ycR0iYZUev0hiiwjB0JIroFuCSRiESa6xW988+6Fqe7z6vzZ
+      n73qBgBkCgus5aPsH+2ihksY/QqWZSIDzZCKKMgMxjahgIilT5FwUW9/4SJV9rlkXKgBtGrH
+      WNMEC+U89x9sI0oiYcVmNHNJxyMk4klEZQbmhJk9Y2qC6FeF8DlDLu4k2HVP1rqn61z3U/9+
+      ehSAC4iCQH805f/8He9SIv18gLPnL3z9tp8P8LKYpsXY8O4gzM8HOHsiQfn12gXSR13uPzok
+      mcuzWMw/9WHoGCMeHHXYXCvSbA6wjQFKJEMm+fwtUNd1uH/3DivX36B1vENvYrNSzrG3f0hh
+      6Rp6t8LYVri+vuznA1wC5jIf4FnMJhMyCyuMOxWagkmt2aGwWOTwwRGhZJyb19eo1eoYEwPL
+      sWk3mhwf77OxCceHu6RzOTqVKgRCJEIiE1smE5apNDuUljdIhSQUVWZmO/QHYwAe7R6x+cYt
+      Htx5Hy2YQsPwD8F8zpTPPac7jkOrO+TG9XU67TrJTJng6cxZrdWwJl0qrT6CrFJeXMY0DDZv
+      3WLQaxKJZ4kHFQKahjEaU++NuLGxQrvVQ1QCBBURXAcbkUhQIV8qsvfgPrag4Dg2luNcXC1H
+      n0vJC88AgUiUg+0DsqUy8YDA9u4hy2trmFMAFXBZ2bhJKhGj2x8QzaXBtYlHgzx48ICFpTWw
+      XARszNkYLRJhIR/n0V6N1fV1zOmQdn/CxG2QS8XoTSyymkJPENnc3GTUqjBxQnycICl62UXa
+      59LyWjrBfj7A2TMv8fley7vwLpFPw5oZDMdTYvE42BbIMtPhACUYJqDKDCYG//NvvuedQh8/
+      I7yadbyWB7iOi+DhIctf/aUveybrWcylARxuP0KIxjiqNogFRCRVZDITGQz2+NI7b2PMbH7/
+      g4OLVtPnFfir/+p8GMB8+pSCTKFURpVdltevYYx1VlaXiQVV/HQAn7NkLg1Allwe3LuLpIYB
+      yGaT3P3wQya2MJ9Tls9ry2vpBI8mBr/r4RLIcU5CEzwLh76Ak2DHdhAl756Hf/xLK3MRCvFa
+      PlBlSWCtmHz+jWeE4zoIePeFdNxTA/AwFsh2bCTRu501Lx38Z3GmBjDptdhrDrm1sfpDV11q
+      RzuM7QjrSzl27v6AyOKbZELw7rs/ILuwSjmfpFrvUirlP/UrHwyHxKJPhlH0RgZ//X/4rbNU
+      3cdjXrtQiBeh3uqA5WINa+xPorjDGteurZHOZ+g97DPpt9BNG9l0cF0YjcfkBYGtO3cYWRL6
+      dEQyJHPUmyILErIsMO23OarUyCwsUDts8tYX/XwAn7PjTBd9jXqVyaBFvT1AN3SGozEgPF7r
+      tXt99MmQRrMJQLG8Qjkfp97qE4tGCKsCj+pDIgGVG9evYVsm1UqFSCKJiMvy2gaaOpd+u89r
+      ytnNAK7Frbe+TCSkMtYNjGqF3NISuC57O4fYrkumtEGxWMQUgogSlIoFEFXefnOToSGQL6SQ
+      w1O0oIIgQHmhjLa2zPbuMel0FlE4MSRJEihlzi7J/vmfzQUE78LzPysh4jLJnJI6bGQAABCR
+      SURBVA8X4PXcBfJDIc6eeQlN8Frehe4CdTptEsnU48A2e6YzcyW0gAK2ydCwiYaCT7yuO9T5
+      W//7H3io6cfPCM+mAI/leV8c92/9Oz/nmaxncWEG4Do2e1sfkr/x48jTFt3RjJVyHhOoH+0S
+      iadAVjENA9GxcdwZzb7B5voylu3w6LhzUar7nAVzsu64MAOYdCv07QDm7jbpmEYpBvvVNpLk
+      IKpJkhrcr/cQTAvFniGHZGwTnItS2OdScmFbKt2xw9d++icoZeNMhj12G1MKqTDRWIppr0pn
+      aBAOhbD1Ad2xjhYMMptO/VggnzNlLpzgdrtNOp1+4fun+ox7B+1z1OjTeH4SfAWS4t9czaIo
+      V9wJ/pjP8+WHk9KB/bF3tUFd1wEPDcA9NQAvtyUdx0b0MhRiTvhMAxi1q9yvDvniGxuPrzXq
+      DXL5HMPRiGgk8qn7BUGgcbxHvTtmefUa0ZD6wkrYsxHf/f4dQtE4b96+8cTex+7uHqurK4/l
+      DCcz/pvf+PYLv7/P/PFTb8x5KES9MySmuExGdd79qEo0otKuHeNKX6bbrmBNdaLZBaatA3bb
+      Bv/Sz/8Mrf6YN2+/Qa92yLvbPYJahEn7iHSmQHs4RlVDuHoX03ZZXVvnB9//Diu3vspKVkaU
+      FGRRYHvrA7Z3Drj5zlfYvfcuyYVNVNfgve/8PkeNEX/sF/6kl+Pjc8l5qhPsujatZoPRsEet
+      NWBpbYNoKEQ+XyAWDQEughQgGYswNR2CyskzWxFcas0Wg+GEVDaHa1ukciWy8TDRRBoBm1gy
+      w8pCluNai5X1ZSb9kxIoAUXEsB0Mw2LzjTdxJz0ypSVmkwkAjqjw5hu3kOfkBNHncvBUJ9h1
+      HWYzC1WVMQwDSQ7gOhauNUO3RYKqhGubTC0QbQNXCpCIRXAdi2azTSKdYdBpEUtlwbFQVYVu
+      u0UwmkDCRRRO1/HDEdFwjIAqYloOOBaIIp1Oj0wmRbfbIxKNIQogOBa9sUE2k6I7GPPf/v3v
+      eThMHh9MXUAohNcHYf/Rn/9Jv0vky+KHQpw98xKa4LW8H7ri0mlUaY9mrK0sI2JzVKmzWF7A
+      mvZp9E2GvRal5TWiQYXK4R46KqvlApYDgusgyvJn1uuZTQe0RzbFTIzdvSNWV5df+sO0+xN+
+      +b/75y/9+s/PaTDcpZXnvcy/+9f/lGeynsUnBuDCcbVJLCTTnVhEBJ1KvclieYFao0s8nSEZ
+      ybN3XGM5rTJ2NRL0uHOvS607IeXoSAvL5IPQ7I65cesms2GHvcMqS9duYE9G7O93CDNmv94i
+      EQ1wXOtQKmbZ390jV16icXxIsbxEs1GnUF4h+xk1RR0XRtOZV2Pkc4n51Bwrii4j3UJwbILh
+      KNFwENd1sFwB0TbYOWxxfX0Ry7QIaBphLYAairK8skY+m2N1bYnucMqNhQj7zSm7u7sgwGg4
+      AiCqCuy1dbJxjb2dXXAMbClIKJ6mlE0SiiaYdDts3H6TVv0YSx/xaO/wQgbG52rwKQOIhDRc
+      USYUVBh2mwz6fR5u3SWUyNHpdHBdk05vRDRTQG8fsd2asV7OY/TqRHIpjh4dkIgEuXc0ZCmr
+      sbhYxnFFwiENNRBicXUJTVFIJ5MslBcQ5ADjTp2prrO/t8/U0Iln0jz86ENSuRJyMMK1lUUA
+      +v0+/X7/QgbJ5/LyXCd4MBgQjcXmJX8BgJlp0up7VyfaD4U4e3IJbd6c4KcTi8XORaFXwZjZ
+      /M77+57J87pL5EWEQvyZn75OMPDip/evimV51+DkWcxFLNDHzKZDHj58xMBUuL5SpNVqogoQ
+      zhZJhFQmhk0iFmGsm/z6//vRRat7qfiXv3qNYOD591025irDXA1GCGkhvvDWTZr1Jq7rMBmN
+      cQWBd7/7Lf7gd36PiR8P7XOGzNUM0Kvvc9gaoEQ/yfZKxCP0B2O0SIzr+RTq1QtY9DlH5soA
+      YrlFfiK9gCCIiLmTEGlBELBtG7Gcx3YcJEALyPzCVzee/WZniHsaCuFVpTbXdU+LUHjnA8ge
+      lkWcJ17LUAjTsjBm3iVHOu5pKIRHbURtx0YURE93gQKqiDIHuzJey5urGeBj+u06R9UakXSZ
+      XERg4gRJx0OPf97u+10iz5pf+5Vf9NQA5oW5/MTxdJ5ur08qFmRvb5dgLE19fwtD0HjnzZsX
+      rZ7PJWIuF36jbh0xlEbQO9S7E2zLIhiNE4tcwX06n3NlLmeAXn/IaDIjmCuykIkQDofRVA9L
+      IfpcGV5LJ9i2bQQPY+Udx0EAz2Q6toMget0gw54Lp9RreY+vmKaJosiYpsVJRedPbrZmBhN9
+      RjgSQXpuJ0EX07QBF0VRsE2d4cQmFgthnx5/y4rySht8w4nB3/0nH7zCO3w+LmIb9OS7750B
+      /KU//Y6nX8h54fEnbhztYIkBxEAYTVFQBJPu2GS5XGJ35wFyMEql3qKQCjGxFRJhlUa9Tml5
+      jW7tAEsOs5DPABZ3P3rAwmKeTCbD7s4uuUKW7Z0mlmWRSyfQggHqjSbZbB41pGHqE1xXQBJc
+      BBEODuusrZZpNBqooQSZH8kL0Gc233xvz+Ohutz8279wNfsuPJ7TS0sr3L37gFImQrPV5ei4
+      jjwbnYQeODaNRpNwWOOo0cPo1Xiwc0CuEOfB+1uM0ei1G4/fVBAEWqc9AGaOSyyeoXP8iFRh
+      gWazReXoiGQmTqNeY293j0q9ydFBhfrRIZ1eH31Q4d6DPfqmQqdV83xQfK4Ojw3gYG+fr37l
+      ixxUmsiyTDQWIxgMIACKFmFzfYXJVIfZhN7YJBKJEApphEIavUaF7nAKjsWDu1uEU6nH06mA
+      wLBbY+H6F+jWjpBlmYAWRgsGCYTi6L0GmXwRY9qj0uoyHA5RghoiEItFCQROdn78fACf8+CV
+      nWDHmvHw4SMkLca1lfITPx/1GphSjGT0yTLnWAZbu8dsbqx9rtXuaKLz2+9e4nBoj+UBfP3H
+      Vj0Ph54HJ/i13AUyZiYHjYFn8rz+Qp60ZRU8rYyynI/NRZkSr+WdiQbHx8cUMxHu7vUpxiTC
+      uQWCEtimwdiwiUVCT32dOR1hySE0RaTeqJPP5R//rFk7IpYpE3iKht2hzl/7hpdVIS4/v/Yr
+      v+ipAcwLZ2IArj5i93iGIDq0hlNktc5H2/uk0nF2j1rcWF+i0WiQL2bZ3WtRSEcYmw4LCY1Z
+      cMaDo0MsRCa9Nu2BzpvvfJHJaIDAEe/XeiTjcSbdCjNB48vvvHUWKvv4AGcUCpHOJjmqdUkF
+      RQxboNFowmyAKYZZXF6mXTs+dWwdyisbZDNJRHNEf2QwGA7ILawSDqocVaqEwxofL8pc12F5
+      bRPRtYgmM6QSkWcr4uPzOTmTGSAYSXNzQyQZ1QjEXBRXRwqGyRdztCoHLNx6i+OjY2KJHAgq
+      mDaBaIZSIQNqkNrhHqlsnlIuRaM3RZUgWygjyTKuJBHO5xBwcU9dZUkUyCfDZ6H6C3ERHcK8
+      LkLw3PPNS8pr6QT7pRHPnnlxSr2W90wNjOkEOagx7A+IRTRmjkBQPXGUJpMJoVAIc6bjOC6i
+      oqE84zupTyaooRBYBgeHVQrlMsGX7BDSG+n8F3/vD1/qtS/DRbQJ9lIewH/yF792tUMhnsao
+      18AKJNn66ENuXVvECcTZb1TJL65QO9ojn07yYGePUi5FayKytFDEGDSw5DDNvbtESpukgy5D
+      U8Qd9indusHB/S1SpRUs0+TgcBc5kkZ1dVrdEYuLRarHVWKZAs6kg06AVFRjOByjyi69qcvG
+      6iKm5bDlYYukq4DjvHYLgTPhmXNsIpmiun2fUmmBw/aYsGyjmxbbOzuAQ7MzZqVcBASKiyt0
+      aw/pGiqjfptUNs/yQob7D3Zo1CpYpwO8un6NxvEuteohhhBj0KrT7g0pRGQq7S7RdJ5hp0Fn
+      YCCMuuwcHhLPZBkOhuxvbzMf1WR8LgvPNAApGMVC5NpqHtt0cWcGgiwT0jQ0LYzoGlSaXYJa
+      CC2gEIplEPQ2lisTCYc5PG6QTsdJJFOEwyFEoN/r4QoSwVAcfVDFkQPEolFULUQwEEQLBgiF
+      IoiOTt8SyKTTRIIqpjkjEg7PS3tZn0vCa+kET/UZH+42PZPnfSjESSlGL4+C317PEVD9k+DX
+      Atd1MUzvFkOuc1qm5BKHQlxVPmUAxqBJ2wyiTNuI0QzRSAhVEmE2ojERySU+HdJg9Oq03Sil
+      5Ml1a9zmO3f2WFleIRJSiUWfTGM0h3W+c69CPBZhY6kIaoiAfLISGw4HRKPPr0U6mMz4L3/9
+      Wy/9oX2e5Nd+5Rc9nQHmhU8ZQCCaYnB/G0FwiZh19LFCvdEnG3a5UzO5lg8x1XXCoQiVVo8b
+      m5skhRG//Tvf54tf+jJhx8IwbQRR4LhSYW80YDq1KSxneHBvm5Ub77AcNckvXSM8qnBwUENL
+      aFSO64RCUWQscHax9DHB3CqDVgMbwQ9/8Dk3Pu0ECxKSPcGRNXBdzJlBKlsgm8uRy2SxbYdC
+      IctMN1hc2yCTjCFrEZbyKRqtLgDllWsUM0lc1yWSyLBWzDGcTFla23hc22c6HtKezNAkF1yR
+      5fUNwoETVdRQhNvXVxgMp6SyeWTxZP1tmiamaXo4ND5XgSd8gOX16ziiiujaSIpCp9VACGVZ
+      TLeIJ/K02z2u37yB5ZwsUGVFJRJPnXxZBZsl7eT62soKgiAgASlFolFrEA5pKIJKctwgtbCJ
+      Iri4ooggiiS08iedCmWRG8sG3//ud4hkT3IMZrOTlkiKoqDKIm+v539U9XPD+w5hrqdlEYEX
+      yPW+nMztLtAPq/WjzqcfCnH2zMuujNfyPNOg3+8Ti8cZnP79tOfNcDgkqEo0OiNKhexn7rq0
+      BxP+2jd+63wVvmJ845f/JBE/FOL80PstbClIo1ZHH/Vpj0yy8QCNVo/i0irtyh6dscliOsJR
+      c0AkJHG4X8EVBUKRBNGAS7NvcGvzGo4D/bHhlepXgvlcB5w/ns2xmXyeyvZHBGM5dnZ3MMdD
+      ulODzfVFarUDAvEy2VSUvm7xpY0sW3sdFhYXkYIRBNdgZ2cHazxE964otM8VwLMZQAqEEQWF
+      hUICcVpiMhNJRKMIkkI6XaBd2UcIRkhGgtw96LOxtEBAVUlEIyiig1IqMdJ5ZsSpj8/nZW6d
+      4GdhzEyq7aFn8tzT+GSvTma9lgdQTEWQZe+eLl5vZHyWvNfSAC77LtBVaJM6L/JeS7ffy+1B
+      8LY+z0XIA+/HdF7kvZYzgI/PWTGXDTJehGGnznvvv0etdd4FsmzufP97NAeTc5Zzgmsb3P3o
+      Dh/ee+iJPFyXve37vPf+BxiWN89Cc9LnW999zxNZALsP73H37j2m5pM9dl9bA6i1+7z91tsM
+      uvVzliRSKuawTI/2X0WV5aUiklddGwWBeCzGzJh54nS7rsPOYY14xLsyjACWOcN+Strna2sA
+      AdGl2W7hCuc8kK6LaVnMzJk32WjWhPs7NdaWF72QdpJ8o2gkQhJj4/y7kDv2DNMwODw4ZDLz
+      JqcjnsqSTwToDPUnfvbaGsDi2jVM3eDa2tL5CnIsRhY4xsQTA3CRiEcDNNpdD6QBCFjGhEh2
+      iUTo/PdEJDnI7bfe4mtf+xlCqjd7MMGAjKkkWUw/WUvKd4J9rjSv7Qzg43MW+Abgc6XxDcDn
+      SuMbgM+VxjcAnyuNbwA+VxrfAHyuNL4B+Fxp/n9olRWJUv9MTQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
